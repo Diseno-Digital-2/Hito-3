@@ -87,7 +87,7 @@ end process;
 suma_posiciones <= (posicionT0 & "0000000") + posicionT0 + (PosicionT1 & "000000") +(PosicionT2 & "00000")+
 (PosicionT3 & "0000") +(PosicionT4 & "000") +(PosicionT5 & "00") + (PosicionT6 & "0") + PosicionT7;
 
-posicion_procesada_out <= suma_posiciones (16 downto 7); --Dividir entre 256 = Desplazar 8 bits a la derecha
+posicion_procesada_out <= suma_posiciones(16) & suma_posiciones (16 downto 8); --Dividir entre 256 = Desplazar 8 bits a la derecha
 
 fin_procesado <= fin_medida when fin_offset = '1' else  '0';
 
