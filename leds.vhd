@@ -52,4 +52,3 @@ begin
              not(x"00") when nRst = '0' else
              not(x"00");
 end rtl;
-

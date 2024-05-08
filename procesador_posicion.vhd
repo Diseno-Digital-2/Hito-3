@@ -42,24 +42,16 @@ begin
         posicionT5<= (others => '0');
         posicionT6<= (others => '0');
         posicionT7<= (others => '0');
-	primera_medida <= '1';
+		primera_medida <= '1';
+		posicion_ajustada_offset <= (others => '0');
 
     elsif clk'event and clk ='1' then
         if fin_offset = '1' and fin_medida = '1' then
             
 
-	if primera_medida = '1' then
-  	    posicionT0 <= offset_in;
-            posicionT1 <= offset_in;
-            posicionT2 <= offset_in;
-            posicionT3 <= offset_in;
-            posicionT4 <= offset_in;
-            posicionT5 <= offset_in;
-            posicionT6 <= offset_in;
-            posicionT7 <= offset_in;
-	    primera_medida <='0';
 
-	else
+
+
 
 	    if offset_in(9) = posicion_in(9) then 
                 posicion_ajustada_offset <= posicion_in - offset_in;
@@ -75,7 +67,7 @@ begin
             posicionT5 <= posicionT4;
             posicionT6 <= posicionT5;
             posicionT7 <= posicionT6;
-	end if;
+	
 
 
         end if;
