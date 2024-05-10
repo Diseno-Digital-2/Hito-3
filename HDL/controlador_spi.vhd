@@ -68,7 +68,7 @@ begin
 
                 when reset_2do=>
                     start <= '0';
-                    if rdy = '1' and rdy'last_value='0' then
+                    if rdy = '1' then
                         nWR_RD <= '0';
                         dir_reg <= "0100011";
                         dato_wr <= x"80";
@@ -79,7 +79,7 @@ begin
 
                 when reset_3ro=>
                     start <= '0';
-                if rdy = '1'and rdy'last_value='0' and start = '0' then
+                if rdy = '1' and start = '0' then
                     nWR_RD <= '0';
                     dir_reg <= "0100000";
                     dato_wr <= x"61";

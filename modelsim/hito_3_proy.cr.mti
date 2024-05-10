@@ -1,0 +1,109 @@
+D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_top.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_top.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity test_top
+-- Compiling architecture test of test_top
+-- Loading entity top
+-- Loading entity agente_spi
+
+} {} {}} D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_procesador_posicion.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_procesador_posicion.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity test_procesador_posicion
+-- Compiling architecture test of test_procesador_posicion
+-- Loading package STD_LOGIC_SIGNED
+-- Loading entity procesador_posicion
+
+} {} {}} D:/Universidad/DD2/Bloque_Final/Hito-3/HDL/controlador_spi.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Universidad/DD2/Bloque_Final/Hito-3/HDL/controlador_spi.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity controlador_spi
+-- Compiling architecture rtl of controlador_spi
+
+} {} {}} D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_hito3_completo.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_hito3_completo.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity test_hito3_completo
+-- Compiling architecture test of test_hito3_completo
+-- Loading package STD_LOGIC_SIGNED
+-- Loading entity offset
+-- Loading entity procesador_posicion
+-- Loading entity leds
+
+} {} {}} D:/Universidad/DD2/Bloque_Final/Hito-3/HDL/top.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Universidad/DD2/Bloque_Final/Hito-3/HDL/top.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity top
+-- Compiling architecture estructural of top
+-- Loading entity master_spi_4_hilos
+-- Loading entity controlador_spi
+-- Loading package STD_LOGIC_SIGNED
+-- Loading entity offset
+-- Loading entity procesador_posicion
+-- Loading entity leds
+
+} {} {}} D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_master.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_master.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity test_master
+-- Compiling architecture test of test_master
+-- Loading entity master_spi_4_hilos
+-- Loading entity agente_spi
+
+} {} {}} D:/Universidad/DD2/Bloque_Final/Hito-3/HDL/master_spi_4_hilos.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Universidad/DD2/Bloque_Final/Hito-3/HDL/master_spi_4_hilos.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity master_spi_4_hilos
+-- Compiling architecture rtl of master_spi_4_hilos
+
+} {} {}} D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_offset.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/test_offset.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity test_offset
+-- Compiling architecture test of test_offset
+-- Loading package STD_LOGIC_SIGNED
+-- Loading entity offset
+
+} {} {}} D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/agente_spi.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Universidad/DD2/Bloque_Final/Hito-3/modelsim/agente_spi.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity agente_spi
+-- Compiling architecture sim of agente_spi
+
+} {} {}}

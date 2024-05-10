@@ -1,0 +1,9 @@
+
+State Machine - |top|controlador_spi:U1|estado
+Name estado.leer_2do estado.leer_1ro estado.reposo estado.reset_3ro estado.reset_2do estado.reset_1ro 
+estado.reset_1ro 0 0 0 0 0 0 
+estado.reset_2do 0 0 0 0 1 1 
+estado.reset_3ro 0 0 0 1 0 1 
+estado.reposo 0 0 1 0 0 1 
+estado.leer_1ro 0 1 0 0 0 1 
+estado.leer_2do 1 0 0 0 0 1 
