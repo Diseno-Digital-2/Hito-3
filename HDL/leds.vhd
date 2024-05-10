@@ -29,6 +29,5 @@ BEGIN
         NOT(x"F0") WHEN posicion <= 136 ELSE
         NOT(x"E0") WHEN posicion <= 170 ELSE
         NOT(x"C0") WHEN posicion <= 204 ELSE
-        NOT(x"80") WHEN posicion <= 272 ELSE
-        NOT(x"FF");
+        NOT(x"80") 
 END rtl;
